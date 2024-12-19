@@ -2,9 +2,11 @@
   "name": "FunctionalPenalty",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
